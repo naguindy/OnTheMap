@@ -15,6 +15,7 @@
 		ED6014B0233E00500058EDD7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6014AF233E00500058EDD7 /* LoginViewController.swift */; };
 		ED6014B2233E09810058EDD7 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6014B1233E09810058EDD7 /* AddLocationViewController.swift */; };
 		ED6014B4233E11450058EDD7 /* ConfirmedLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6014B3233E11450058EDD7 /* ConfirmedLocationViewController.swift */; };
+		ED6014B6233E2B2C0058EDD7 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6014B5233E2B2C0058EDD7 /* APIRequests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ED6014AF233E00500058EDD7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ED6014B1233E09810058EDD7 /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
 		ED6014B3233E11450058EDD7 /* ConfirmedLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmedLocationViewController.swift; sourceTree = "<group>"; };
+		ED6014B5233E2B2C0058EDD7 /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				ED60149B233DFF370058EDD7 /* AppDelegate.swift */,
 				ED60149F233DFF370058EDD7 /* ViewController.swift */,
 				ED6014AF233E00500058EDD7 /* LoginViewController.swift */,
+				ED6014B5233E2B2C0058EDD7 /* APIRequests.swift */,
 				ED6014A1233DFF370058EDD7 /* Main.storyboard */,
 				ED6014B3233E11450058EDD7 /* ConfirmedLocationViewController.swift */,
 				ED6014B1233E09810058EDD7 /* AddLocationViewController.swift */,
@@ -148,6 +151,7 @@
 				ED6014B0233E00500058EDD7 /* LoginViewController.swift in Sources */,
 				ED6014A0233DFF370058EDD7 /* ViewController.swift in Sources */,
 				ED60149C233DFF370058EDD7 /* AppDelegate.swift in Sources */,
+				ED6014B6233E2B2C0058EDD7 /* APIRequests.swift in Sources */,
 				ED6014B2233E09810058EDD7 /* AddLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
