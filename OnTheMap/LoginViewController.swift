@@ -25,7 +25,7 @@ class LoginViewController : UIViewController {
     
     @IBAction func getLoggedIN(_ sender: UIButton) {
         
-        //performSegue(withIdentifier: "loginSegue", sender: self)
+        
         
         var url = URL(string: "https://onthemap-api.udacity.com/v1/session")
         var request = URLRequest(url: url!)
@@ -50,7 +50,8 @@ class LoginViewController : UIViewController {
                     print(String(data: newData!, encoding: .utf8)!)
                 }
             }
-            task.resume()
+//            task.resume()
+        performSegue(withIdentifier: "loginSegue", sender: self)
         
     }
 }
